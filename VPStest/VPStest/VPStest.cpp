@@ -13,7 +13,7 @@ typedef struct {
 } bool; 백준에서는 bool을 사용하기 위해선 다음과 같이 정의해야 한다. 출처: https://blog.naver.com/maxx1027/221495146988*/
 
 void init_stack(Stack* s) {
-    s->top = -1; 
+    s->top = -1;
 }
 
 int is_empty(Stack* s) {
